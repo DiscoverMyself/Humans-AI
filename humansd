@@ -26,9 +26,7 @@ sleep 3
   \ \  \ \  \ \  \___|\ \  \\  \\ \  \ \  \ \  \    \ \  \ \  \_|\ \ 
    \ \__\ \__\ \__\    \ \__\\ _\\ \__\ \__\ \__\    \ \__\ \_______\
     \|__|\|__|\|__|     \|__|\|__|\|__|\|__|\|__|     \|__|\|_______|
-                                                                     
-                
-		    "
+                                                                      "
  
 echo -e  "	  	 \e[92m ☠ ------------------------------------ ☠ "
 
@@ -40,12 +38,11 @@ if [ ! $NODENAME ]; then
 	read -p "Enter node name: " NODENAME
 	echo 'export NODENAME='$NODENAME >> $HOME/.bash_profile
 fi
-HUMANS_PORT=30657
+
 if [ ! $WALLET ]; then
 	echo "export WALLET=wallet" >> $HOME/.bash_profile
 fi
 echo "export HUMANS_CHAIN_ID=testnet-1" >> $HOME/.bash_profile
-echo "export HUMANS_PORT=${HUMANS_PORT}" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 
 echo '================================================='
@@ -83,12 +80,6 @@ wget https://github.com/humansdotai/humans/releases/download/latest/humans_lates
 tar -xvf humans_latest_linux_amd64.tar.gz
 sudo cp humansd /usr/local/bin/humansd
 
-
-
-# config
-humansd config chain-id $HUMANS_CHAIN_ID
-humansd config keyring-backend test
-humansd config node tcp://localhost:${HUMANS_PORT}657
 
 # init
 humansd init $NODENAME --chain-id=$HUMANS_CHAIN_ID --home $HOME/.humans
