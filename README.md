@@ -1,7 +1,7 @@
 <div classname="logo">
 
 <p align="center">
-  <img height="150" height="auto" src="https://user-images.githubusercontent.com/78480857/208037291-9a6b4619-a53c-4230-b429-d276e9eac1f0.png">
+  <img height="50" height="auto" src="https://user-images.githubusercontent.com/78480857/208037291-9a6b4619-a53c-4230-b429-d276e9eac1f0.png">
 </div>
 
 # Humans-AI testnet
