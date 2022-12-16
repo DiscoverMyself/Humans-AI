@@ -82,6 +82,7 @@ humansd keys delete $WALLET
 ## Validator Configuration
 **Create Validator**
 ```
+humansd tx staking create-validator \
 --amount=9000000uheart \
 --pubkey=$(humansd tendermint show-validator) \
 --moniker=$NODENAME \
