@@ -2,6 +2,7 @@
 clear
 echo ""
 echo "Wait ..."
+clear
 sleep 3
        
 echo -e "\033[0;35m"
