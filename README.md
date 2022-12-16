@@ -93,13 +93,16 @@ humansd keys delete $WALLET
 --fees=10000uheart \
 --from=$WALLET \
 -y
+```
 
 **Check Validator address**
+
 ```
 humansd keys show wallet --bech val -a
 ```
 
 **Edit Validator**
+
 ```
 humansd tx staking edit-validator \
   --moniker=$NODENAME \
