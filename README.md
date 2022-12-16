@@ -130,27 +130,27 @@ humansd tx slashing unjail \
 **Useful Commands**
 1. Synchronization info
 
-```
+`
 humansd status 2>&1 | jq .SyncInfo
-``
+`
 
 2. Validator Info
 
-```
+`
 humansd status 2>&1 | jq .ValidatorInfo
-```
+`
 
 3. Node Info
 
-```
+`
 humansd status 2>&1 | jq .NodeInfo
-```
+`
 
 4. Show Node ID
 
-```
+`
 humansd tendermint show-node-id
-```
+`
 
 5. Delete Node
 
