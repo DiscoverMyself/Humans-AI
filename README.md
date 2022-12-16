@@ -154,12 +154,12 @@ humansd tendermint show-node-id
 
 5. Delete Node
 
-`
+```
 systemctl stop humansd
 systemctl disable humansd
 rm -rvf .humans
 rm -rvf humans.sh
 rm -rvf humansd
 rm -rvf humans_latest_linux_amd64.tar.gz
-`
+```
 
