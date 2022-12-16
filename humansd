@@ -138,6 +138,6 @@ sudo systemctl daemon-reload
 sudo systemctl enable humansd
 sudo systemctl restart humansd
 
-echo '=============== KELAR CUY, JAN LUPA BUAT WALLET & REQ FAUCET ==================='
+echo '================ KELAR CUY, JAN LUPA BUAT WALLET & REQ FAUCET ===================='
 echo -e 'To check logs: \e[1m\e[32mjournalctl -u humansd -f -o cat\e[0m'
 echo -e "To check sync status: \e[1m\e[32mhumansd status 2>&1 | jq .SyncInfo\e[0m"
