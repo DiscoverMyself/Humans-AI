@@ -18,7 +18,13 @@
 
 - [Discord](https://discord.gg/humansdotai)
 
+- [Medium](https://medium.com/humansdotai)
+
 - [Twitter](https://twitter.com/humansdotai)
+
+- [NFT Collection](https://opensea.io/collection/heartbeatsnfts)
+
+- [Tokenomics]([https://medium.com/humansdotai](https://docs.google.com/spreadsheets/d/11Zc1Ox13oUKiGQw79XJBAPHqEvJCnArnGgXcUc6Noz8/edit#gid=1434488738))
 
 ## Hardware requirements
 - OS : Ubuntu Linux 20.04 (LTS) x64
@@ -102,7 +108,7 @@ humansd tx staking edit-validator \
   --details="<your_validator_description>" \
   --chain-id=$HUMANS_CHAIN_ID \
   --from=$WALLET
-  ```
+```
  
 **Delegate to Validator**
 ```
@@ -116,7 +122,7 @@ humansd tx slashing unjail \
   --from=$WALLET \
   --chain-id=$HUMANS_CHAIN_ID \
   --gas=auto --gas-adjustment 1.4
-  ```
+```
   
 **Useful Commands**
 1. Synchronization info
