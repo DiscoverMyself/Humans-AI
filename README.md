@@ -24,7 +24,7 @@
 
 - [NFT Collection](https://opensea.io/collection/heartbeatsnfts)
 
-- [Tokenomics]([https://medium.com/humansdotai](https://docs.google.com/spreadsheets/d/11Zc1Ox13oUKiGQw79XJBAPHqEvJCnArnGgXcUc6Noz8/edit#gid=1434488738))
+- [Tokenomics](https://docs.google.com/spreadsheets/d/11Zc1Ox13oUKiGQw79XJBAPHqEvJCnArnGgXcUc6Noz8/edit#gid=1434488738)
 
 ## Hardware requirements
 - OS : Ubuntu Linux 20.04 (LTS) x64
