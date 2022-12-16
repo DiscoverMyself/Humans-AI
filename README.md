@@ -1,6 +1,12 @@
 <div classname="logo">
 
 <p align="center">
+  <img height="200" height="auto" src="https://user-images.githubusercontent.com/78480857/208039283-f12a96b8-5ad3-44e0-a42e-000217cc15a6.jpg">
+</div>
+
+<div classname="logo">
+
+<p align="center">
   <img height="50" height="auto" src="https://user-images.githubusercontent.com/78480857/208037291-9a6b4619-a53c-4230-b429-d276e9eac1f0.png">
 </div>
 
