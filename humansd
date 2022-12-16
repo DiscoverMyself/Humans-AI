@@ -19,8 +19,6 @@ echo -e "\e[0m"
 
 sleep 2
 
-sleep 2
-
 # set vars
 if [ ! $NODENAME ]; then
 	read -p "Enter node name: " NODENAME
